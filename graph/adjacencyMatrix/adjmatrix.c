@@ -150,6 +150,7 @@ int main(void){
 		}else{
 			CreateMGraph(&graph);	
 			printf("显示无向图详情如下:\n");
+			printadjmatrix(&graph);
 			displayGraph(&graph);	
 			}
 	
